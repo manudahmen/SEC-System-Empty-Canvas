@@ -1,0 +1,15 @@
+
+<document-type target="web, desktop, mobile>
+  <mime>
+    <mime-type>text</mime-type>
+    <mime-type-declarations>system, extension, content, application</mime-type-declaration>
+  </mime>
+</document-type>
+<actions type="document-handling" name="open">
+  <filters>
+    <mime-type-filter>text</mime-type-filter>
+  </filters>
+  <define-actions>
+    <open-with>editor</open-with>
+  </define-actions>
+</action>
